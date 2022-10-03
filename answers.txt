@@ -8,7 +8,8 @@ It shows that the Django installation has successfully worked.
 
 Question 3: After creating the first view within polls, 
 what does the browser show you when navigating to / and to /polls respectively?
-
+Answer: When navigating to /, we see a 'Page not found (404)' message. When navigating to /polls,
+we see a page with the text 'Hello, world. You're at the polls index.'.
 
 
 Question 4: What is a Django migration and why do we need them?
