@@ -13,9 +13,13 @@ we see a page with the text 'Hello, world. You're at the polls index.'.
 
 
 Question 4: What is a Django migration and why do we need them?
+Answer: Django migrations are a history of database changes that Django can roll through to update
+the database schema. The database schema needs to be updated to match the current version of model
+files and migrations are automatically derived from the model files.
 
 
-Question 5: What do you see after you log into the Django adminstration site? From a high levle, how do you get custom models to appear in the Django admin page?
+Question 5: What do you see after you log into the Django adminstration site? 
+From a high levle, how do you get custom models to appear in the Django admin page?
 
 
 Question 6: What do you see when you go to /polls/38/ in your browser? What about /polls/38/results and /polls/38/vote? 
