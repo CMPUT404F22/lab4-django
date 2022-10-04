@@ -29,6 +29,13 @@ of a Django app.
 
 Question 6: What do you see when you go to /polls/38/ in your browser? What about /polls/38/results and /polls/38/vote? 
 What happens when you don’t put a number, and instead use a string? How would you modify the urls.py file to allow arbitrary alphabetic characters?
+Answer: When we go to /polls/38/, the following text is seen - "You're looking at question 38."
+When we go to /polls/38/results, "You're looking at the results of question 38."
+When we go to /polls/38/vote, "You're voting on question 38."
+When we put a string instead of a number, we get a "Page Not Found (404)" message.
+
+To allow arbitrary alphabetic characters, we can define our own path converter with the regex [a-zA-Z]+,
+register the converter in urls.py module of the app and use it. Reference: https://docs.djangoproject.com/en/4.1/topics/http/urls/#path-converters
 
 
 Question 7: Why is it a bad idea to hardcode urls into the templates?
