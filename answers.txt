@@ -20,7 +20,11 @@ without losing data.
 
 
 Question 5: What do you see after you log into the Django adminstration site? 
-From a high levle, how do you get custom models to appear in the Django admin page?
+From a high level, how do you get custom models to appear in the Django admin page?
+Answer: After logging into the Django adminstration site, we see a few types of editable content: groups
+and users. They are provided by the authentication framework shipped by Django.
+We can get custom models to appear in the Django admin page by registering the model from the admin.py file
+of a Django app.
 
 
 Question 6: What do you see when you go to /polls/38/ in your browser? What about /polls/38/results and /polls/38/vote? 
