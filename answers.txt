@@ -44,5 +44,9 @@ with lots of templates.
 
 Question 8: What are the benefits of using Django's generic views over writing views 'the hard way'? 
 When should you use a generic view and when shouldn't you use a generic view?
-
-
+Answer: Main benefits of using Django's generic views is to avoid repeating generic logic that is common
+to a lot of web apps. An example of this logic is getting data from the database according to a parameter
+passed in the URL, loading a template and returning the rendered template. We can avoid writing this logic
+in view functions by using Django's generic views.
+We should use a generic view when we have a generic use case like the one mentioned above. We should write
+our own view when we have a more complicated use case that is not generic and is specific to our app.
