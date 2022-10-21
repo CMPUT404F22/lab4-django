@@ -50,3 +50,17 @@ passed in the URL, loading a template and returning the rendered template. We ca
 in view functions by using Django's generic views.
 We should use a generic view when we have a generic use case like the one mentioned above. We should write
 our own view when we have a more complicated use case that is not generic and is specific to our app.
+
+Lab 6!
+Question 1: What are some ways you can deploy your code to Heroku?
+Answer:
+
+Question 2: What is a Procfile used for?
+Answer: A Procfile is used to explicitly declare an application's process types and entry points.
+
+Question 3: What is the link to your deployed application (on herokuapps)?
+Answer:
+
+Heroku Concepts
+- Sensitive credentials are stored in the environment as config vars
+- You will need to configure your app’s settings.py file to read these environment variables into Django settings.
